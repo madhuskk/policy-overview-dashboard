@@ -24,4 +24,7 @@ hs_err_pid*
 replay_pid*
 
 target
-.mvn
+
+# Maven Wrapper — keep the wrapper, ignore any downloaded distribution/jar
+!.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
